@@ -1,0 +1,76 @@
+/* Стилі для загальних елементів */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Стилі для картинки */
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Медіа-запит для адаптивного зображення */
+  
+  @media (max-width: 768px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  a {
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    transition: transform 0.2s ease; /* Додаємо анімацію на трансформацію */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    transform: scale(1.1); /* Збільшуємо розмір кнопки на 10% при наведенні */
+  }
